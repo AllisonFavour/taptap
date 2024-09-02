@@ -1,0 +1,78 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Changed from space-between to center */
+  min-height: 100vh;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: background-image 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+main {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  max-width: 600px;
+  margin: 20px; /* Added margin for better spacing on small screens */
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transform: translateY(20px);
+  opacity: 0;
+  transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+}
+
+.container.show {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+#quote {
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 1.4;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+#instruction {
+  font-size: 18px;
+  color: #666;
+  font-weight: 400;
+}
+
+footer {
+  padding: 15px;
+  background-color: rgba(240, 240, 240, 0.8);
+  font-size: 14px;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 90%;
+    padding: 30px;
+  }
+
+  #quote {
+    font-size: 24px;
+  }
+
+  #instruction {
+    font-size: 16px;
+  }
+}
