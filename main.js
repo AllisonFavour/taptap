@@ -50,6 +50,18 @@ let loveQuotes = [
   "You are my perfect match, my best friend, and my greatest love.",
   "Your love is the fire that keeps me warm in the coldest times.",
   "I would choose you over and over again, in every lifetime.",
+  "One text from you can change a moody day into a cheerful day",
+  "I love our late night conversations, and the way you make me smile all through",
+  "You're always such a comfort, and I love you wholeheartedly",
+  "My Man? Nah he isn't just my man, he's my favorite person",
+  "You're so comforting and your warm hugs makes me feel so much at peace",
+  "Being with you is like being away from the chaos of life",
+  "If this is love, then I want it forever",
+  "I love the meaning of your name, but I love you even more",
+  "I think your name contact should be changed to peace of mind (😌POM🥺) because you're my peace",
+  "I read novels a lot, and I love novels with happy endings, just what I want between you and I",
+  "I love, 'love' and I would love to experience it with you",
+  "I love our late night conversations, and the way you make me smile all through",
 ];
 
 const backgrounds = [
